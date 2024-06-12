@@ -1,0 +1,152 @@
+html {
+  background-color: black;
+}
+
+.lefaPAge {
+  background-color: black;
+  position: relative;
+}
+
+.lefaH1 {
+  position: absolute;
+  top: 23%;
+  left: 5%;
+  color: black;
+  font-size: 500%;
+  text-align: center;
+}
+
+.lefaSlogan {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+  color: black;
+  font-size: 200%;
+  text-align: center;
+}
+
+.lefaApps {
+  position: absolute;
+  top: 51%;
+  left: 5%;
+  color: black;
+  font-size: 100%;
+  text-align: center;
+}
+
+.img2 {
+  display: flex;
+  z-index: -1;
+  width: 100%;
+}
+
+.img4 {
+  display: flex;
+  z-index: -1;
+  width: 100%;
+}
+
+.projectH2 {
+  position: absolute;
+  left: 5%;
+  color: white;
+  font-size: 400%;
+  text-align: center;
+}
+
+.projectSlogan {
+  position: absolute;
+  top: 9%;
+  left: 5%;
+  color: white;
+  font-size: 200%;
+  text-align: center;
+}
+
+.card1 {
+  position: absolute;
+  top: 17%;
+  left: 5%;
+  color: black;
+  font-size: 100%;
+}
+
+.card2 {
+  position: absolute;
+  top: 58%;
+  left: 30%;
+  color: black;
+  font-size: 100%;
+}
+
+.card3 {
+  position: absolute;
+  top: 58%;
+  left: 5%;
+  color: black;
+  font-size: 100%;
+}
+
+.card4 {
+  position: absolute;
+  top: 17%;
+  left: 30%;
+  color: black;
+  font-size: 100%;
+}
+
+.ContactText {
+  position: absolute;
+  color: white;
+  width: 100%;
+  top: 10%;
+  text-align: center;
+}
+
+.ContactDiv {
+  top: 10%;
+}
+
+.ContacttH2 {
+  font-size: 400%;
+}
+
+.contactDetailsDiv {
+  margin-top: 3%;
+}
+
+.loopVideo {
+  position: fixed;
+  width: 100%;
+  z-index: -1;
+}
+
+.img1 {
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-color: pink;
+}
+
+.img5 {
+  width: 36rem;
+}
+
+.aboutLayout {
+  top: 10%;
+  right: 0.01%;
+  width: 100%;
+}
+
+.aboutLayout {
+  position: fixed;
+  display: flex;
+}
+
+.aboutDescription {
+  color: white;
+  width: 70%;
+  font-size: 101%;
+}
