@@ -24,7 +24,7 @@ export default class About extends Component {
                 <img
                   className="img5"
                   src="./img5.jpg"
-                  alt="Picture of lefa on the left"
+                  alt="lefa on the left"
                 ></img>
               </div>
             </Col>
