@@ -12,7 +12,7 @@ export default class Lefa extends Component {
           <div>
             <h2 className="lefaSlogan" > A Dedicated Web Developer </h2>
           </div>
-          <div className="lefaApps" >HTML | CSS | JavaScript | MongoDB | Express | React |Node |BootStrap</div>
+          <div className="lefaApps" >HTML | CSS | JavaScript | MongoDB | Express | React | Node | BootStrap</div>
         </div>
 
         <div className="img2Div">
