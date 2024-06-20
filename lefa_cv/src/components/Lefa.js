@@ -1,31 +1,31 @@
-// import React, { Component } from "react";
-// //import img2 from "./pictures/drive-download/img2"
+import React, { Component } from "react";
+//import img2 from "./pictures/drive-download/img2"
 
-// export default class Lefa extends Component {
-//   render() {
-//     return (
-//       <div className="lefaPAge">
-//         <div className="lefaText"> <div></div>
-//           <div className="lefaH2Div">
-//             <h1 className="lefaH1">Welcome to Lefa</h1>
-//           </div>
-//           <div>
-//             <h2 className="lefaSlogan" > A Dedicated Web Developer </h2>
-//           </div>
-//           <div className="lefaApps" >HTML | CSS | JavaScript | MongoDB | Express | React | Node | BootStrap</div>
-//         </div>
+export default class Lefa extends Component {
+  render() {
+    return (
+      <div className="lefaPAge">
+        <div className="lefaText"> <div></div>
+          <div className="lefaH2Div">
+            <h1 className="lefaH1">Welcome to Lefa</h1>
+          </div>
+          <div>
+            <h2 className="lefaSlogan" > A Dedicated Web Developer </h2>
+          </div>
+          <div className="lefaApps" >HTML | CSS | JavaScript | MongoDB | Express | React | Node | BootStrap</div>
+        </div>
 
-//         <div className="img2Div">
-//           <img
-//             className="img2"
-//             src="./img2.jpg"
-//             alt="lefa a shirt and tie"
-//           ></img>
-//         </div>
-//       </div>
-//     );
-//   }
-// }
+        <div className="img2Div">
+          <img
+            className="img2"
+            src="./img6.jpg"
+            alt="lefa a shirt and tie"
+          ></img>
+        </div>
+      </div>
+    );
+  }
+}
 
 // import React from "react";
 
@@ -53,31 +53,31 @@
 
 // export default Lefa;
 
-import React, { Component } from "react";
+// import React, { Component } from "react";
 
 
-export default class Lefa extends Component {
-  render() {
-    return (
-      <div className="lefaPAge">
-        <div className="lefaText">
-          <div className="lefaH2Div">
-            <h2 className="projectH2">Welcome to Lefa </h2>
-          </div>
-          <div className="cardDiv">
+// export default class Lefa extends Component {
+//   render() {
+//     return (
+//       <div className="lefaPAge">
+//         <div className="lefaText">
+//           <div className="lefaH2Div">
+//             <h2 className="projectH2">Welcome to Lefa </h2>
+//           </div>
+//           <div className="cardDiv">
             
-          </div>
-          <div className="projectSlogan">A Dedicated Web Developer</div>
-        </div>
+//           </div>
+//           <div className="lefaSlogan">A Dedicated Web Developer</div>
+//         </div>
 
-        <div className="img4Div">
-          <img
-            className="img4"
-            src="./img6.jpg"
-            alt="lefa in the background wearing a shirt and tie"
-          ></img>
-        </div>
-      </div>
-    );
-  }
-}
+//         <div className="img4Div">
+//           <img
+//             className="img4"
+//             src="./img6.jpg"
+//             alt="lefa in the background wearing a shirt and tie"
+//           ></img>
+//         </div>
+//       </div>
+//     );
+//   }
+// }

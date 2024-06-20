@@ -9,7 +9,7 @@ html {
 
 .lefaH1 {
   position: absolute;
-  top: 23%;
+  top: 13%;
   left: 5%;
   color: white;
   font-size: 500%;
@@ -18,7 +18,7 @@ html {
 
 .lefaSlogan {
   position: absolute;
-  top: 45%;
+  top: 25%;
   left: 5%;
   color: white;
   font-size: 200%;
@@ -27,7 +27,7 @@ html {
 
 .lefaApps {
   position: absolute;
-  top: 51%;
+  top: 31%;
   left: 5%;
   color: white;
   font-size: 100%;
