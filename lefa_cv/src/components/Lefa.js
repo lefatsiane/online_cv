@@ -67,13 +67,13 @@ export default class Lefa extends Component {
           <div className="cardDiv">
             
           </div>
-          <div className="projectSlogan">A few projects I have worked on</div>
+          <div className="projectSlogan">A Dedicated Web Developer</div>
         </div>
 
         <div className="img4Div">
           <img
             className="img4"
-            src="./img4.jpg"
+            src="./img2.jpg"
             alt="lefa in the background wearing a shirt and tie"
           ></img>
         </div>
