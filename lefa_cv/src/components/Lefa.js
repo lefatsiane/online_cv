@@ -73,7 +73,7 @@ export default class Lefa extends Component {
         <div className="img4Div">
           <img
             className="img4"
-            src="./img4.jpg"
+            src="./img6.jpg"
             alt="lefa in the background wearing a shirt and tie"
           ></img>
         </div>
