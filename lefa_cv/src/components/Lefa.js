@@ -40,13 +40,13 @@ const Lefa = () => {
         </div>
       </div>
 
-      <div className="img2Div">
+      {/* <div className="img2Div">
         <img
           className="img2"
           src="./img3.jpg"
           alt="Lefa wearing a shirt and tie"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -11,7 +11,7 @@ html {
   position: absolute;
   top: 23%;
   left: 5%;
-  color: black;
+  color: white;
   font-size: 500%;
   text-align: center;
 }
@@ -20,7 +20,7 @@ html {
   position: absolute;
   top: 45%;
   left: 5%;
-  color: black;
+  color: white;
   font-size: 200%;
   text-align: center;
 }
@@ -29,7 +29,7 @@ html {
   position: absolute;
   top: 51%;
   left: 5%;
-  color: black;
+  color: white;
   font-size: 100%;
   text-align: center;
 }
