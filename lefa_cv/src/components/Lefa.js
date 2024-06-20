@@ -43,7 +43,7 @@ const Lefa = () => {
       <div className="img2Div">
         <img
           className="img2"
-          src="./img2.jpg"
+          src="./img3.jpg"
           alt="Lefa wearing a shirt and tie"
         />
       </div>
