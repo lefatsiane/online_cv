@@ -4,7 +4,8 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- <meta name="theme-color" content="#000000" /> -->
+
+    <!-- <meta name="theme-color" content="#000000" /> -->
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -16,17 +17,39 @@
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-    <script src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js" crossorigin></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/react/umd/react.production.min.js"
+      crossorigin
+    ></script>
 
     <script
       src="https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js"
-      crossorigin></script>
-    
+      crossorigin
+    ></script>
+
     <script
       src="https://cdn.jsdelivr.net/npm/react-bootstrap@next/dist/react-bootstrap.min.js"
-      crossorigin></script>
-    
-    <script>var Alert = ReactBootstrap.Alert;</script>
+      crossorigin
+    ></script>
+
+    <script>
+      var Alert = ReactBootstrap.Alert;
+    </script>
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7ZP35T2X05"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7ZP35T2X05");
+    </script>
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -39,8 +62,6 @@
     <title>React App</title>
   </head>
   <body>
-    
-   
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
