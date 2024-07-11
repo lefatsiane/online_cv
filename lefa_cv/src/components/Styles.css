@@ -9,32 +9,36 @@ html {
 
 .lefaH1 {
   position: absolute;
-  top: 13%;
+  top: 23%;
   left: 5%;
   color: white;
-  font-size: 500%;
+  font-size: 5rem;
   text-align: center;
 }
 
 .lefaSlogan {
   position: absolute;
-  top: 25%;
+  top: 45%;
   left: 5%;
   color: white;
-  font-size: 200%;
+  font-size: 2rem;
   text-align: center;
 }
 
 .lefaApps {
   position: absolute;
-  top: 31%;
+  top: 51%;
   left: 5%;
   color: white;
-  font-size: 100%;
+  font-size: 1rem;
   text-align: center;
 }
 
-.img2 {
+.lefaAppPhone {
+  color: black;
+}
+
+.img6 {
   display: flex;
   z-index: -1;
   width: 100%;
@@ -65,6 +69,7 @@ html {
 
 .card1 {
   position: absolute;
+  width: 18rem;
   top: 17%;
   left: 5%;
   color: black;
@@ -73,6 +78,7 @@ html {
 
 .card2 {
   position: absolute;
+  width: 18rem;
   top: 58%;
   left: 30%;
   color: black;
@@ -81,6 +87,7 @@ html {
 
 .card3 {
   position: absolute;
+  width: 18rem;
   top: 58%;
   left: 5%;
   color: black;
@@ -89,6 +96,7 @@ html {
 
 .card4 {
   position: absolute;
+  width: 18rem;
   top: 17%;
   left: 30%;
   color: black;
@@ -103,12 +111,8 @@ html {
   text-align: center;
 }
 
-.ContactDiv {
-  top: 10%;
-}
-
 .ContacttH2 {
-  font-size: 400%;
+  font-size: 200%;
 }
 
 .contactDetailsDiv {
@@ -116,6 +120,7 @@ html {
 }
 
 .loopVideo {
+  top: 7%;
   position: fixed;
   width: 100%;
   z-index: -1;
@@ -147,6 +152,197 @@ html {
 
 .aboutDescription {
   color: white;
-  width: 70%;
   font-size: 101%;
+}
+
+@media (max-width: 600px) {
+  html {
+    background-color: black;
+  }
+
+  .lefaPAge {
+    display: flex;
+    background-color: #000000;
+    position: relative;
+  }
+
+  .lefaH1 {
+    position: absolute;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .lefaSlogan {
+    position: absolute;
+    display: flex;
+    top: 120%;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .lefaApps {
+    visibility: collapse;
+  }
+
+  .lefaAppPhone {
+    top: 300%;
+    color: white;
+    position: absolute;
+    display: flex;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  /* .img8{
+  width: 100%;
+  z-index: -1;
+} */
+
+  .card1 {
+    position: absolute;
+    width: 8rem;
+
+    top: 45%;
+    left: 1%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .card2 {
+    position: absolute;
+    width: 8rem;
+
+    top: 138%;
+    left: 65%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .card3 {
+    position: absolute;
+    width: 8rem;
+
+    top: 140%;
+    left: 1%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .card4 {
+    position: absolute;
+    width: 8rem;
+
+    top: 45%;
+    left: 65%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .cardTitle {
+    font-weight: bolder;
+    font-size: 50%;
+  }
+
+  .cardText {
+    font-size: 50%;
+  }
+
+  .cardLink {
+    font-size: 50%;
+  }
+
+  .cardDiv {
+    background-color: red;
+    padding-left: 30%;
+  }
+
+  .projectH2 {
+    position: absolute;
+    left: 40%;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+  }
+
+  .projectSlogan {
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    color: white;
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .contactDetailsDiv {
+    margin-top: 70%;
+  }
+
+  .img1 {
+    visibility: collapse;
+  }
+
+  .img6 {
+    visibility: collapse;
+  }
+
+  .img3 {
+    visibility: collapse;
+  }
+
+  .img4 {
+    visibility: collapse;
+  }
+
+  .videoDiv {
+    visibility: collapse;
+  }
+
+  .videoDiv {
+    visibility: collapse;
+  }
+
+  .DescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .aboutDescription {
+    color: white;
+    background-color: black;
+  }
+
+  .img5 {
+    width: 100%;
+  }
+
+  /*
+.aboutDiv{
+  top: 10rem;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+
+.aboutLayout {
+  top: 10%;
+  right: 0.01%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutDescription {
+  color: white;
+  font-size: 1.01rem;
+  width: 22rem;
+  height: 100%;
+} */
+
+  .lefaH1 {
+    font-size: 3rem;
+  }
 }
