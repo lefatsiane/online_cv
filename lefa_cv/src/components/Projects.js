@@ -15,7 +15,7 @@ export default class Lefa extends Component {
               <Card>
                 <Card.Img variant="top" src="OnlineStore.png" />
                 <Card.Body>
-                  <Card.Title className="cardTitle">
+                  <Card.Title classNa me="cardTitle">
                     The Online Store
                   </Card.Title>
                   <Card.Text className="cardText">
