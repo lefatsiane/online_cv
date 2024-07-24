@@ -43,17 +43,7 @@ html {
   color: black;
 }
 
-.img6 {
-  display: flex;
-  z-index: -1;
-  width: 100%;
-}
 
-.img4 {
-  display: flex;
-  z-index: -1;
-  width: 100%;
-}
 
 .projectH2 {
   position: absolute;
@@ -65,17 +55,17 @@ html {
 
 .projectSlogan {
   position: absolute;
-  top: 9%;
+  top: 20%;
   left: 5%;
   color: white;
-  font-size: 200%;
+  font-size: 2rem;
   text-align: center;
 }
 
 .card1 {
   position: absolute;
-  width: 18rem;
-  top: 17%;
+  width: 15rem;
+  top: 30%;
   left: 5%;
   color: black;
   font-size: 100%;
@@ -83,8 +73,8 @@ html {
 
 .card2 {
   position: absolute;
-  width: 18rem;
-  top: 58%;
+  width: 15rem;
+  top: 78%;
   left: 30%;
   color: black;
   font-size: 100%;
@@ -92,8 +82,8 @@ html {
 
 .card3 {
   position: absolute;
-  width: 18rem;
-  top: 58%;
+  width: 15rem;
+  top: 80%;
   left: 5%;
   color: black;
   font-size: 100%;
@@ -101,8 +91,8 @@ html {
 
 .card4 {
   position: absolute;
-  width: 18rem;
-  top: 17%;
+  width: 15rem;
+  top: 30%;
   left: 30%;
   color: black;
   font-size: 100%;
