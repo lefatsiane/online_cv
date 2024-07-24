@@ -19,17 +19,6 @@ export default class Lefa extends Component {
             BootStrap
           </div>
         </div>
-
-        <div className="img6Div">
-          <img
-            className="img6"
-            src="./img6.jpg"
-            alt="lefa a shirt and tie"
-          ></img>
-        </div>
-        <div className="lefaAppPhone">
-          HTML | CSS | JavaScript | MongoDB | Express | React | Node | BootStrap
-        </div>
       </div>
     );
   }

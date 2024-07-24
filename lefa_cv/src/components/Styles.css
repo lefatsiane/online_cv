@@ -1,11 +1,16 @@
 html {
-  background-color: black;
+  background-color: #17153b;
 }
 
-.lefaPAge {
-  background-color: black;
-  position: relative;
+.lefaAppPhone {
+  visibility: collapse;
 }
+
+/* .lefaPAge {
+  background-color: red;
+  position: relative;
+  margin-bottom: 10%;
+} */
 
 .lefaH1 {
   position: absolute;
@@ -119,24 +124,21 @@ html {
   margin-top: 3%;
 }
 
-.loopVideo {
-  top: 7%;
-  position: fixed;
-  width: 100%;
-  z-index: -1;
-}
-
 .img1 {
   position: fixed;
 
   width: 100%;
   height: 100%;
   z-index: -1;
-  background-color: pink;
 }
 
 .img5 {
+  background-color: transparent;
   width: 36rem;
+}
+
+.img5Div {
+  background-color: transparent;
 }
 
 .aboutLayout {
@@ -150,19 +152,200 @@ html {
   display: flex;
 }
 
+.DescriptionContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  background-color: #17153b;
+  padding: 10rem;
+  border-color: #17153b;
+}
+
 .aboutDescription {
   color: white;
-  font-size: 101%;
+  font-size: 0.85rem;
+  padding-left: 5rem;
 }
 
 @media (max-width: 600px) {
   html {
-    background-color: black;
+    background-color: #17153b;
+    border-color: #17153b;
+  }
+
+  .App {
+    border-color: #17153b;
+  }
+
+  .lefaAppPhone {
+    visibility: collapse;
+  }
+
+  /* .lefaPAge {
+    background-color: red;
+    position: relative;
+    margin-bottom: 10%;
+  } */
+
+  .lefaH1 {
+    position: absolute;
+    top: 3rem;
+    color: white;
+    font-size: 5rem;
+    text-align: center;
+  }
+
+  .lefaSlogan {
+    position: absolute;
+    top: 20rem;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .lefaApps {
+    position: absolute;
+    top: 35rem;
+    left: 5%;
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .lefaAppPhone {
+    color: black;
+  }
+
+  .img6 {
+    display: flex;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .img4 {
+    display: flex;
+    z-index: -1;
+    width: 100%;
+  }
+
+  .projectH2 {
+    position: absolute;
+    left: 4.5rem;
+    color: white;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .projectSlogan {
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 6rem;
+  }
+
+  .card1 {
+    position: absolute;
+    width: 8rem;
+    top: 45%;
+    left: 1%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .card2 {
+    position: absolute;
+    width: 8rem;
+    top: 35rem;
+    left: 65%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .card3 {
+    position: absolute;
+    width: 8rem;
+
+    top: 35rem;
+    left: 1%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .card4 {
+    position: absolute;
+    width: 8rem;
+    top: 45%;
+    left: 65%;
+    color: black;
+    font-size: 100%;
+  }
+
+  .cardTitle {
+    font-weight: bolder;
+    font-size: 50%;
+  }
+
+  .cardText {
+    font-size: 50%;
+  }
+
+  .cardLink {
+    font-size: 50%;
+  }
+
+  .ContactText {
+    position: absolute;
+    color: white;
+    width: 100%;
+    top: 10%;
+    text-align: center;
+  }
+
+  .ContacttH2 {
+    font-size: 200%;
+  }
+
+  .contactDetailsDiv {
+    margin-top: 3%;
+  }
+
+  .img5 {
+    width: 20rem;
+  }
+
+  .DescriptionContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #17153b;
+    padding-top: 1rem;
+    border-color: #17153b;
+  }
+
+  .aboutDescription {
+    color: white;
+    font-size: 1rem;
+    width: 25rem;
+    margin-right: 5rem;
+  }
+
+  .aboutDiv1 {
+    border-color: #17153b;
+  }
+
+  #root {
+    border-color: #17153b;
+  }
+
+  /* html {
+    background-color: #17153b;
   }
 
   .lefaPAge {
     display: flex;
-    background-color: #000000;
+    background-color: #17153b;
     position: relative;
   }
 
@@ -194,11 +377,6 @@ html {
     font-size: 1rem;
     text-align: center;
   }
-
-  /* .img8{
-  width: 100%;
-  z-index: -1;
-} */
 
   .card1 {
     position: absolute;
@@ -233,7 +411,6 @@ html {
   .card4 {
     position: absolute;
     width: 8rem;
-
     top: 45%;
     left: 65%;
     color: black;
@@ -279,30 +456,6 @@ html {
     margin-top: 70%;
   }
 
-  .img1 {
-    visibility: collapse;
-  }
-
-  .img6 {
-    visibility: collapse;
-  }
-
-  .img3 {
-    visibility: collapse;
-  }
-
-  .img4 {
-    visibility: collapse;
-  }
-
-  .videoDiv {
-    visibility: collapse;
-  }
-
-  .videoDiv {
-    visibility: collapse;
-  }
-
   .DescriptionContainer {
     display: flex;
     flex-direction: column;
@@ -312,37 +465,13 @@ html {
   }
 
   .aboutDescription {
-    color: white;
-    background-color: black;
+    width: 25rem;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5rem;
   }
-
-  .img5 {
-    width: 100%;
-  }
-
-  /*
-.aboutDiv{
-  top: 10rem;
-  flex-direction: column;
-  overflow-y: scroll;
-}
-
-.aboutLayout {
-  top: 10%;
-  right: 0.01%;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-
-.aboutDescription {
-  color: white;
-  font-size: 1.01rem;
-  width: 22rem;
-  height: 100%;
-} */
 
   .lefaH1 {
     font-size: 3rem;
-  }
+  } */
 }

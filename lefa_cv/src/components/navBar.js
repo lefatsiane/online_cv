@@ -12,7 +12,7 @@ import Lefa from "./Lefa";
 export default function NavBar() {
   return (
     <Router>
-      <div className="aboutDiv">
+      <div className="navBar">
         <Navbar bg="dark" variant="dark">
           <Container>
             <Navbar.Brand as={Link} to="/">

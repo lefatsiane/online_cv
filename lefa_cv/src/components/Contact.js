@@ -55,11 +55,11 @@ export default class Contact extends Component {
           </div>
         </div>
 
-        <div className="videoDiv">
+        {/* <div className="videoDiv">
           <video className="loopVideo" autoPlay muted loop id="video">
             <source src={"The_Search.mp4"} type="video/mp4" />
           </video>
-        </div>
+        </div> */}
       </div>
     );
   }

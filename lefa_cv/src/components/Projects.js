@@ -9,15 +9,20 @@ export default class Lefa extends Component {
         <div className="lefaText">
           <div className="lefaH2Div">
             <h2 className="projectH2">Projects </h2>
+            <h3 className="projectSlogan">A few projects I have worked on</h3>
           </div>
+          
+
+
+
+
+
           <div className="cardDiv">
             <div className="card1">
               <Card>
                 <Card.Img variant="top" src="OnlineStore.png" />
                 <Card.Body>
-                  <Card.Title classNa me="cardTitle">
-                    The Online Store
-                  </Card.Title>
+                  <Card.Title className="cardTitle">The Online Store</Card.Title>
                   <Card.Text className="cardText">
                     This code demonstrates proficiency in React it also
                     features: a login, a cart, and product cards.
@@ -88,15 +93,7 @@ export default class Lefa extends Component {
               </Card>
             </div>
           </div>
-          <div className="projectSlogan">A few projects I have worked on</div>
-        </div>
-
-        <div className="img4Div">
-          <img
-            className="img4"
-            src="./img4.jpg"
-            alt="lefa in the background wearing a shirt and tie"
-          ></img>
+          
         </div>
       </div>
     );
