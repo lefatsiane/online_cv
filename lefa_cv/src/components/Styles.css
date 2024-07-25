@@ -6,12 +6,6 @@ html {
   visibility: collapse;
 }
 
-/* .lefaPAge {
-  background-color: red;
-  position: relative;
-  margin-bottom: 10%;
-} */
-
 .lefaH1 {
   position: absolute;
   top: 23%;
@@ -42,8 +36,6 @@ html {
 .lefaAppPhone {
   color: black;
 }
-
-
 
 .projectH2 {
   position: absolute;
@@ -116,7 +108,6 @@ html {
 
 .img1 {
   position: fixed;
-
   width: 100%;
   height: 100%;
   z-index: -1;
@@ -158,15 +149,13 @@ html {
   padding-left: 5rem;
 }
 
-
-
 /* md */
 @media (max-width: 768px) {
   .container {
     max-width: 640px;
   }
 
-   html {
+  html {
     background-color: #17153b;
     border-color: #17153b;
   }
@@ -178,12 +167,6 @@ html {
   .lefaAppPhone {
     visibility: collapse;
   }
-
-  /* .lefaPAge {
-    background-color: red;
-    position: relative;
-    margin-bottom: 10%;
-  } */
 
   .lefaH1 {
     position: absolute;
@@ -317,7 +300,7 @@ html {
     flex-direction: column;
     align-items: center;
     background-color: #17153b;
-   
+
     border-color: #17153b;
   }
 
@@ -337,19 +320,6 @@ html {
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 640px) {
   html {
     background-color: #17153b;
@@ -363,12 +333,6 @@ html {
   .lefaAppPhone {
     visibility: collapse;
   }
-
-  /* .lefaPAge {
-    background-color: red;
-    position: relative;
-    margin-bottom: 10%;
-  } */
 
   .lefaH1 {
     position: absolute;
@@ -502,7 +466,7 @@ html {
     flex-direction: column;
     align-items: center;
     background-color: #17153b;
-   
+
     border-color: #17153b;
   }
 
