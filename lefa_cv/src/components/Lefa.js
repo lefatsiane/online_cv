@@ -9,7 +9,7 @@ export default class Lefa extends Component {
           {" "}
           <div></div>
           <div className="lefaH2Div">
-            <h1 className="lefaH1">Welcome to Lefa</h1>
+            <h1 className="animate bounce lefaH1 ">Welcome to Lefa</h1>
           </div>
           <div>
             <h2 className="lefaSlogan"> A Dedicated Web Developer </h2>
