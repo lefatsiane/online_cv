@@ -5,11 +5,9 @@ export default class About extends Component {
   render() {
     return (
       <div className="aboutDiv1">
-        <div>whhoa</div>
         <div className="DescriptionContainer">
-          <div className="img5Div">
-            <img className="img5" src="./img5.jpg" alt="lefa at the top"></img>
-          </div>
+          <img className="img5" src="./img5.jpg" alt="lefa at the top"></img>
+
           <div className="aboutDescription">
             <p>
               As a results-driven professional, I consistently strive for
