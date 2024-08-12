@@ -6,7 +6,7 @@ html {
   visibility: collapse;
 }
 
-.animate{
+.animate {
   animation-duration: 1s;
   animation-fill-mode: both;
 }
@@ -185,7 +185,6 @@ html {
   align-items: center;
   text-align: center;
   color: white;
-
 }
 
 .img5 {
@@ -370,7 +369,7 @@ html {
   .aboutDescription {
     font-size: 0.9rem;
   }
-  
+
   #root {
     border-color: #17153b;
   }
@@ -530,8 +529,6 @@ html {
     color: white;
     font-size: 1rem;
     width: 25rem;
-   
-    
   }
 
   .aboutDiv1 {
@@ -542,4 +539,3 @@ html {
     border-color: #17153b;
   }
 }
-
